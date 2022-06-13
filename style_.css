@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap" );
+*{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    display: hidden;
+  }
+body{
+      background-color: #351F66;
+      width: 100%;
+      height: 100%; 
+  }
+
+  
+  button{
+    border: 0;
+    outline: 0;
+  }
+
+  label{
+    font-size: 18px;
+    color: #351F66;
+  }
+  .dropbtn, .dropbtn_2{
+      background-color: #351F66; border: none;
+      color: #212121;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 50px;
+  }
+  .dropdown{ 
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .dropdown-content, .dropdown-content_2{
+      display: none;
+      position: absolute;
+      background-color: #EBE1D7;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      min-width: 60px;
+      z-index: 1;
+  }
+  .dropdown-content a, .dropdown-content_2 a{
+      padding: 4px 8px;
+      text-decoration: none;
+      display: block;
+
+      color: #212121;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+  }
+  .dropbtn:not(:last-child){
+      margin-right: 30px;
+  }
+  .dropdown-content a:hover{
+      color: #E9591D;
+  }
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
+  .controller h4{
+    font-size: 36px;
+    margin-top: 0px;
+  }
+
+
+
+  .main{
+      position: absolute;
+      top: 80px; 
+      left: 0px;
+      width: 1440px;
+      height: 600px;
+      display: flex;
+      flex-direction: row;
+  }
+  .controller{
+      margin-right: 0px;
+      width: 440px;
+      height: 600px;
+      background-color: #F5F5F5;
+  }
+  .board{
+    position: relative;
+    width: 600px;
+    height: 600px;
+  }
+  .board .content{
+    margin: 30px;
+    font-family: 'Inter';
+    color: #212121;
+  }
+  
+  .board h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 200px;
+  }
+  .board p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .board h2{ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .board h3{ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .content img{
+    display: flex;
+    margin-left: 30px;
+    margin-top: -50px;
+  }
+
+  .content{
+    display: flex;
+  }
+
+  .card1{
+    width: 300px;
+  }
+  .text{
+    position: relative;
+    margin-top: -605px;
+    text-align: center;
+    margin-left: 60px;
+    height: 520px;
+    padding-top: 80px;
+  }
+  .box01{
+    height: 520px;
+  }
+  .text01 img{
+    margin-top: -200px;
+  }
+
+
+  .box_1{    
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+ 
+ /* controller*/
+  .controller{
+      padding: 30px;
+      color: #351F66;
+      border-radius: 20px;
+  }
+  .main .controller h2{ margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 20px;
+  }
+  section .option{
+      position: fixed;
+
+  }
+  div.option{
+    width: 100%;
+  }
+  
+  label{
+    display: block;
+    margin: 16px 0 4px 0;  
+  }
+  
+  label span{
+    float: right;
+  }
+  
+  select{
+    width: 100%;
+  }
+
+  /* input 부분 */
+  input[type = "range"]{
+   width: 100%;
+   -webkit-appearance: none;
+   width: 100%;
+   background: transparent;
+  }
+  input[type=range]:focus {
+      outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%; height: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+    /* border: 2px solid #ff96ab; */
+    background-color: #C4C4C4;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -6px;
+    background-color: #351F66;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+}
+#option2{
+    margin-top: 20px;
+}
+.option .colorb h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+div.colors {
+    margin-top: 16px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 16px;
+  }
+
+  div.colors > div{
+    cursor: pointer;
+    width: 65px;
+    height: 65px;
+    order: 2px solid #FFB986  ;
+    display: flex;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+  }
+
+

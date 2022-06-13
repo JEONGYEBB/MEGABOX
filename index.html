@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEGABOX</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" href="photo.js">
+
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+        <img src="img/logo.png" style="width:150px;">
+    </div>
+    
+    <ul class="nav">
+            <li><a href="#">영화</a></li>
+            <li><a href="#">예매</a></li>
+            <li><a href="#">극장</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">스토어</a></li>
+            <li><a href="#">혜택</a></li>
+    </ul>
+
+    <ul class="menu">
+        <li><img src="img/icon-login-scrolled.png" style="width:20px;"></li>
+        <li><img src="img/icon-menu-scrolled.png" style="width:20px;"></li>
+            
+    </ul>
+
+    <!-- <ul class="menu_scrolled">
+        <li><img src="img/icon-menu.png" style="width:20px;"></li>
+        <li><img src="img/icon-login.png" style="width:20px;"></li>
+        <li><img src="img/icon-bookmark.png" style="width:20px;"></li>
+        <li><img src="img/icon-language.png" style="width:20px;"></li>
+    </ul> -->
+
+  </header>
+
+
+<!-- /*-----------------------------------배너--------------------------------------*/ -->
+
+
+  <div class="banner">
+    <img src="img/banner.jpg" style="width:1600px;">
+
+      <div class="text">
+        <h1>마녀(魔女) PART 2. The Other One</h1>
+        <p>모든 것의 시작, <br>또 다른 존재가 깨어난다!</p>
+
+        <button>상세보기 ▶</button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+<!-- /*-----------------------------------스와이프--------------------------------------*/ -->
+
+
+
+<!-- 스와이프 불러오기 -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<div class="swiper-slide-box-1">
+  <div class="swiper-container mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/poster-마녀.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/poster-탑건.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/poster-버즈.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/poster-범죄도시.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/poster-브로커.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/poster-쥬라기월드.jpg" alt=""></div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+<!-- /*-----------------------------------검색버튼--------------------------------------*/ -->
+
+<div id="cover">
+  <form method="get" action="">
+    <div class="tb">
+      <div class="td"><input type="text" placeholder="영화 / 인물 통합 검색" required></div>
+      <div class="td" id="s-cover">
+        <button type="submit">
+          <div id="s-circle"></div>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+<div class="section">
+
+<!-- /*-----------------------------------무비차트--------------------------------------*/ -->
+  <h2>MOVIE CHART</h2>
+
+  <div class="content01">
+
+      <div class="card">
+        <img src="img/마녀.jpg" style="width:206px;">
+        <div class="text">
+          <h3>마녀(魔女) Part2</h3>
+          <h4>예매율 30.1%   좋아요 1K</h4>
+          <h5>개봉 2022.06.15</h5>
+        </div>
+        <div class="btn">
+          <div class="like">
+          <button>좋아요</button></div>
+          <button>예매하기</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/버즈.jpg" style="width:206px;">
+        <div class="text">
+          <h3>버즈 라이트이어</h3>
+          <h4>예매율 16.1%   좋아요 971</h4>
+          <h5>개봉 2022.06.15</h5>
+        </div>
+        <div class="btn">
+          <div class="like">
+          <button>좋아요</button></div>
+          <button>예매하기</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/탑건.jpg" style="width:206px;">
+        <div class="text">
+          <h3>탑건: 매버릭</h3>
+          <h4>예매율 15%   좋아요 946</h4>
+          <h5>개봉 2022.06.22</h5>
+        </div>
+        <div class="btn">
+          <div class="like">
+          <button>좋아요</button></div>
+          <button>예매하기</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/범죄도시.jpg" style="width:206px;">
+        <div class="text">
+          <h3>범죄도시 2</h3>
+          <h4>예매율 14.3%   좋아요 2.1K</h4>
+          <h5>개봉 2022.05.18</h5>
+        </div>
+        <div class="btn">
+          <div class="like">
+          <button>좋아요</button></div>
+          <button>예매하기</button>
+        </div>
+      </div>
+
+
+  </div>
+
+
+  <div class="content01">
+      <!-- -------두번째줄------------ -->
+
+      <div class="card">
+        <img src="img/브로커.jpg" style="width:206px;">
+        <div class="text">
+          <h3>브로커</h3>
+          <h4>예매율 8.6%   좋아요 1.5K</h4>
+          <h5>개봉 2022.06.08</h5>
+        </div>
+        <div class="btn">
+          <div class="like">
+          <button>좋아요</button></div>
+          <button>예매하기</button>
+        </div>
+      </div>
+
+        <div class="card">
+          <img src="img/빈필하모닉.jpg" style="width:206px;">
+          <div class="text">
+            <h3>2022 빈 필하모닉</h3>
+            <h4>예매율 2.7%   좋아요 261K</h4>
+            <h5>개봉 2022.06.17</h5>
+          </div>
+          <div class="btn">
+            <div class="like">
+            <button>좋아요</button></div>
+            <button>예매하기</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/쥬라기월드.jpg" style="width:206px;">
+          <div class="text">
+            <h3>쥬라기 월드: 도미니언</h3>
+            <h4>예매율 2.6%   좋아요 1.5K</h4>
+            <h5>개봉 2022.06.01</h5>
+          </div>
+          <div class="btn">
+            <div class="like">
+            <button>좋아요</button></div>
+            <button>예매하기</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/그대가조국.jpg" style="width:206px;">
+          <div class="text">
+            <h3>그대가 조국</h3>
+            <h4>예매율 1.8%   좋아요 692</h4>
+            <h5>개봉 2022.05.25</h5>
+          </div>
+          <div class="btn">
+            <div class="like">
+            <button>좋아요</button></div>
+            <button>예매하기</button>
+          </div>
+        </div>
+  
+  </div>
+
+
+
+
+
+  <!-- /*-----------------------------------이벤트--------------------------------------*/ -->
+  <h2>EVENT</h2>
+
+  <div class="content02">
+
+      <div class="event_card">
+        <img src="img/event01.jpg" style="width:471px;">
+        <h3>[에버랜드 X 메가박스] 제휴 할인 프로모션</h3>
+      </div>
+
+      <div class="event_card">
+        <img src="img/event02.jpg" style="width:471px;">
+        <h3>[알뜰교통카드 X 메가박스] 콤보 구매하는 방법</h3>
+      </div>
+
+  </div>
+
+  <div class="content02">
+
+      <div class="event_card">
+        <img src="img/event03.jpg" style="width:471px;">
+        <h3>나도 영화 평론가! 관람평 쓰고 포인트 받자!</h3>
+      </div>
+
+      <div class="event_card">
+        <img src="img/event04.jpg" style="width:471px;">
+        <h3>모든 것이 끝난다!! <쥬라기 월드: 도미니언> 1PICK 이벤트</h3>
+      </div>
+
+  </div>
+
+
+  </div>
+
+
+</div>
+
+
+
+
+  <!-- /*-----------------------------------푸터-------------------------------------*/ -->
+
+<footer>
+  <img src="img/logo_footer.png" style="width:200px;">
+    <p>서울특별시 마포구 월드컵로 240, 지상2층(성산동, 월드컵주경기장) ARS 1544-0070<br>
+    대표자명 홍정인 · 개인정보보호책임자 공성진 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 제 2020-서울마포-4545 호<br>
+COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved</p>
+</footer>
+
+
+
+  <!-- /*-----------------------------------플로팅버튼-------------------------------------*/ -->
+
+<a href="ticket.html" class="float">
+<i class="fa fa-envelope my-float"><img src="img/icon-ticket.png" style="width:40px;"></i>
+</a>
+<div class="label-container">
+<div class="label-text">나만의 티켓 굿즈 만들기</div>
+<i class="fa fa-play label-arrow"></i>
+</div>
+
+
+
+
+
+
+
+
+<script  src="sketch.js"></script>
+</body>
+</html>
